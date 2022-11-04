@@ -10,9 +10,28 @@ body {
     font-family: sans-serif;    
 }
 main {
-    padding: 50px 0;
+    padding: 50px 0;  
 }
-
+.flex {
+    display: flex;
+}
+.container {    
+    width: 65%;
+    margin: 0 auto ;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+    gap: 5px;
+}
+header a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+.pointer {
+    cursor: pointer;
+}
 
 /* Header */
 .header {
@@ -21,6 +40,30 @@ main {
     width: 100%;
     position: fixed;    
     z-index: 1;
+    color: white;
+}
+/* Nav Bar */
+
+.nav-bar {
+    align-items: center;
+    height: 50px;
+    width: 100%;     
+}
+.filter {
+    width: 25%;
+}
+.logo {
+    justify-content: center;
+    width: 50%;
+}
+.logo-img {
+    height: 20px;
+}
+.icons {
+    width: 25%;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 13px;    
 }
 
 /* Main */
@@ -29,12 +72,9 @@ main {
     border: 1px dashed;
     min-height: 200px;
     width: calc(100% /3); 
+    margin-top: 50px;
 }
-.container {    
-    width: 65%;
-    margin: 50px auto 0;
-    display: flex;
-}
+
 .column {
     gap: 15px;
 }
