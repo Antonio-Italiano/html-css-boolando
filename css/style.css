@@ -9,3 +9,40 @@
 body {
     font-family: sans-serif;    
 }
+main {
+    padding: 50px 0;
+}
+
+
+/* Header */
+.header {
+    background-color: #FF6900;
+    height: 50px;
+    width: 100%;
+    position: fixed;    
+    z-index: 1;
+}
+
+/* Main */
+.card {
+    background-color: blue;
+    border: 1px dashed;
+    min-height: 200px;
+    width: calc(100% /3); 
+}
+.container {    
+    width: 65%;
+    margin: 50px auto 0;
+    display: flex;
+}
+.column {
+    gap: 15px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1a1a1a;
+    height: 80px;
+    width: 100%;
+}
+    
